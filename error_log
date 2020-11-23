@@ -1,0 +1,25 @@
+[29-Jul-2019 06:25:44 UTC] PHP Notice:  date_default_timezone_set(): Timezone ID 'Asia/Krachi' is invalid in /home1/demongsp/public_html/construction/application/config/config.php on line 26
+[29-Jul-2019 06:29:07 UTC] PHP Notice:  date_default_timezone_set(): Timezone ID 'Asia/Pakistan' is invalid in /home1/demongsp/public_html/construction/application/config/config.php on line 26
+[29-Jul-2019 06:29:09 UTC] PHP Notice:  date_default_timezone_set(): Timezone ID 'Asia/Pakistan' is invalid in /home1/demongsp/public_html/construction/application/config/config.php on line 26
+[28-Aug-2019 16:33:52 Asia/Karachi] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 21024768 bytes) in /home1/demongsp/public_html/construction/system/core/Exceptions.php on line 271
+[28-Aug-2019 16:33:52 Asia/Karachi] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 20914176 bytes) in Unknown on line 0
+[28-Aug-2019 16:33:57 Asia/Karachi] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 21024768 bytes) in /home1/demongsp/public_html/construction/system/core/Exceptions.php on line 271
+[28-Aug-2019 16:33:57 Asia/Karachi] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 20914176 bytes) in Unknown on line 0
+[28-Aug-2019 16:34:33 Asia/Karachi] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 21024768 bytes) in /home1/demongsp/public_html/construction/system/core/Exceptions.php on line 271
+[28-Aug-2019 16:34:33 Asia/Karachi] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 20914176 bytes) in Unknown on line 0
+[28-Aug-2019 16:36:16 Asia/Karachi] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 21024768 bytes) in /home1/demongsp/public_html/construction/system/core/Exceptions.php on line 271
+[28-Aug-2019 16:36:16 Asia/Karachi] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 20914176 bytes) in Unknown on line 0
+[28-Aug-2019 16:36:20 Asia/Karachi] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 21024768 bytes) in /home1/demongsp/public_html/construction/system/core/Exceptions.php on line 271
+[28-Aug-2019 16:36:20 Asia/Karachi] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 20914176 bytes) in Unknown on line 0
+[28-Aug-2019 16:39:06 Asia/Karachi] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 21020672 bytes) in /home1/demongsp/public_html/construction/system/core/Exceptions.php on line 271
+[28-Aug-2019 16:39:06 Asia/Karachi] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 20910080 bytes) in Unknown on line 0
+[01-Oct-2019 06:13:16] PHP Parse error:  syntax error, unexpected T_CONST in /home1/demongsp/public_html/construction/system/core/CodeIgniter.php on line 58
+[01-Oct-2019 06:13:22] PHP Parse error:  syntax error, unexpected T_CONST in /home1/demongsp/public_html/construction/system/core/CodeIgniter.php on line 58
+[01-Oct-2019 06:14:34] PHP Parse error:  syntax error, unexpected T_CONST in /home1/demongsp/public_html/construction/system/core/CodeIgniter.php on line 58
+[01-Oct-2019 06:14:37] PHP Parse error:  syntax error, unexpected T_CONST in /home1/demongsp/public_html/construction/system/core/CodeIgniter.php on line 58
+[01-Oct-2019 06:14:58] PHP Parse error:  syntax error, unexpected T_CONST in /home1/demongsp/public_html/construction/system/core/CodeIgniter.php on line 58
+[01-Oct-2019 06:16:22] PHP Parse error:  syntax error, unexpected T_CONST in /home1/demongsp/public_html/construction/system/core/CodeIgniter.php on line 58
+[01-Oct-2019 06:17:43] PHP Parse error:  syntax error, unexpected T_CONST in /home1/demongsp/public_html/construction/system/core/CodeIgniter.php on line 58
+[01-Oct-2019 06:18:09] PHP Parse error:  syntax error, unexpected T_CONST in /home1/demongsp/public_html/construction/system/core/CodeIgniter.php on line 58
+[01-Oct-2019 06:19:22] PHP Parse error:  syntax error, unexpected T_CONST in /home1/demongsp/public_html/construction/system/core/CodeIgniter.php on line 58
+[01-Oct-2019 06:35:37] PHP Parse error:  syntax error, unexpected T_CONST in /home1/demongsp/public_html/construction/system/core/CodeIgniter.php on line 58
