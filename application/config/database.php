@@ -97,7 +97,7 @@ $db['default'] = array(
 
 $db['server'] = array(
 	'dsn'	=> '',
-	'hostname' => '127.0.0.1',
+	'hostname' => '123',
 	'username' => 'root',
 	'password' => '786@Tritechteal',
 	'database' => 'brandltd',
