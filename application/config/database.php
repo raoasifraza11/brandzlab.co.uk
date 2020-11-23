@@ -70,12 +70,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | The $query_builder variables lets you determine whether or not to load
 | the query builder class.
 */
-$active_group = 'server';
+$active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => '123',
+	'hostname' => 'localhost',
 	'username' => 'root',
 	'password' => '',
 	'database' => 'portfolio',
@@ -97,7 +97,7 @@ $db['default'] = array(
 
 $db['server'] = array(
 	'dsn'	=> '',
-	'hostname' => '123',
+	'hostname' => 'localhost',
 	'username' => 'root',
 	'password' => '786@Tritechteal',
 	'database' => 'brandltd',
