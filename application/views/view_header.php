@@ -145,7 +145,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Francois+One|Lato:400,700" rel="stylesheet">
 
 	<link rel="icon" href="<?php echo base_url(); ?>public/uploads/<?php echo $setting['favicon']; ?>" type="image/png">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
 	<link rel='stylesheet' href='<?php echo base_url(); ?>public/css/animate.min.css'>
 	<link rel='stylesheet' href='<?php echo base_url(); ?>public/css/bootstrap.min.css'>
 	<link rel='stylesheet' href='<?php echo base_url(); ?>public/css/datepicker3.css'>
@@ -158,8 +159,7 @@
 	<link rel='stylesheet' href='<?php echo base_url(); ?>public/css/style.css'>
 	<link rel='stylesheet' href='<?php echo base_url(); ?>public/css/responsive.css'>
 	<link rel='stylesheet' href='<?php echo base_url(); ?>public/style.css'>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+
 
 	<?php //if($slug_arr[0] == 'news-single.php'): ?>
 		<!-- <meta property="og:title" content="<?php echo $og_title; ?>">
