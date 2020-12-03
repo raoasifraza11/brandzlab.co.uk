@@ -912,6 +912,7 @@ Slider
 }
 
 .choose-text h3 {
+	font-weight: 400;
 	color: #f8be2e;
 	margin: 0;
 	margin-bottom: 10px;
