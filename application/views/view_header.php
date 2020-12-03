@@ -158,6 +158,8 @@
 	<link rel='stylesheet' href='<?php echo base_url(); ?>public/css/style.css'>
 	<link rel='stylesheet' href='<?php echo base_url(); ?>public/css/responsive.css'>
 	<link rel='stylesheet' href='<?php echo base_url(); ?>public/style.css'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
 
 	<?php //if($slug_arr[0] == 'news-single.php'): ?>
 		<!-- <meta property="og:title" content="<?php echo $og_title; ?>">
