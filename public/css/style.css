@@ -179,7 +179,6 @@ img {
 .headline h2,
 .testimonial-headline h2 {
 	font-size: 30px;
-	font-weight: 400;
 	text-transform: uppercase;
 	margin: 0;
 	margin-bottom: 4px;
@@ -728,6 +727,7 @@ Slider
 	color: #fff;
 	text-transform: uppercase;
 	margin: 0;
+	font-weight: 600;
 	margin-bottom: 15px;
 	-webkit-animation-duration: .8s;
 	animation-duration: .8s;
