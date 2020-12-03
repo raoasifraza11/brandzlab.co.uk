@@ -146,7 +146,7 @@
 
 	<link rel="icon" href="<?php echo base_url(); ?>public/uploads/<?php echo $setting['favicon']; ?>" type="image/png">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 	<link rel='stylesheet' href='<?php echo base_url(); ?>public/css/animate.min.css'>
 	<link rel='stylesheet' href='<?php echo base_url(); ?>public/css/bootstrap.min.css'>
 	<link rel='stylesheet' href='<?php echo base_url(); ?>public/css/datepicker3.css'>
