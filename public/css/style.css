@@ -179,6 +179,7 @@ img {
 .headline h2,
 .testimonial-headline h2 {
 	font-size: 30px;
+	font-weight: 600;
 	text-transform: uppercase;
 	margin: 0;
 	margin-bottom: 4px;
