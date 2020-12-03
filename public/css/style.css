@@ -1480,10 +1480,12 @@ div.wpcf7-response-output {
 }
 
 .faq-gallery h3 {
+	font-weight: 600;
 	margin: 0;
 	margin-bottom: 20px;
 }
 .faq-gallery h4.sub {
+	font-weight: 400;
 	margin: 0;
 	color: #5a5a5a;
 	font-size: 16px;
@@ -1572,6 +1574,7 @@ div.wpcf7-response-output {
 
 .counter-item h2.counter {
 	font-size: 40px;
+	font-weight: 400;
 	margin-top: 0;
 }
 
@@ -1893,19 +1896,19 @@ span.page-numbers.current {
 	position: relative;
 	padding-bottom: 15px;
 	margin-bottom: 10px;
-	font-weight: 500;
+	font-weight: 600;
 }
 
 
 .footer-col p {
-	color: #b9b9b9;
+	color: #fff;
 	font-size: 14px;
 	line-height: 22px;
 }
 
 .footer-col ul li,
 .footer-col ul li a {
-	color: #b9b9b9;
+	color: #fff;
 	font-size: 14px;
 	line-height: 22px;
 	text-decoration: none;
@@ -2031,6 +2034,7 @@ span.page-numbers.current {
 
 .footer-contact-item li h4 {
 	font-size: 20px;
+	font-weight: 600;
 	margin: 0;
 	margin-bottom: 5px;
 }
