@@ -208,8 +208,8 @@ img {
 	height: 10px;
 	width: 90%;
 	opacity: 1;
-	background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, .35) 0, transparent 80%);
-	background: radial-gradient(ellipse at center, rgba(0, 0, 0, .35) 0, transparent 80%);
+	background: -webkit-radial-gradient(center, ellipse, rgba(190, 187, 0, .35) 0, transparent 80%);
+	background: radial-gradient(ellipse at center, rgba(190, 187, 0, .35) 0, transparent 80%);
 	opacity: 1;
 	-webkit-transform: translateY(5px);
 	transform: translateY(5px)
