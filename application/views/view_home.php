@@ -119,7 +119,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<div class="row">
 			<div class="headline">
 				<div class="headline-shadow">
-					<h2>Projects</h2>
+					<h2><?php echo PROJECTS; ?></h2>
 					<p><?php echo $setting['portfolio_subtitle']; ?></p>
 				</div>
 			</div>
