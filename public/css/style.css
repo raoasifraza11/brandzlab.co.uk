@@ -1941,7 +1941,7 @@ span.page-numbers.current {
 }
 
 .footer-col .news-item {
-	color: #999;
+	color: #fff;
 	padding-bottom: 8px;
 	margin-bottom: 8px;
 	border-bottom: 1px dashed #676666;
@@ -1959,7 +1959,7 @@ span.page-numbers.current {
 }
 
 .footer-col .news-item .news-title a {
-	color: #b9b9b9;
+	color: #fff;
 	text-decoration: none;
 	-webkit-transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;
@@ -1973,17 +1973,17 @@ span.page-numbers.current {
 } 
 
 .footer-col .news-item .news-date {
-	color: #b5b5b5;
+	color: #fff;
 	font-size: 12px;
 	margin-top: 10px;
 }
 
 .footer-col .news-item .news-date a {
-	color: #b5b5b5;
+	color: #fff;
 }
 
 .footer-col .contact-item {
-	color: #b9b9b9;
+	color: #fff;
 	font-size: 14px;
 	overflow: hidden;
 	margin-bottom: 10px;
