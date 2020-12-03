@@ -1528,6 +1528,7 @@ div.wpcf7-response-output {
 	display: block;
 	text-decoration: none;
 	padding: 15.5px 15px;
+	font-weight: 400;
 }
 
 .faq-gallery .panel-default > .panel-heading + .panel-collapse > .panel-body {
