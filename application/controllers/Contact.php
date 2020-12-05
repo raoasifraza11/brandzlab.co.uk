@@ -1,4 +1,6 @@
 <?php
+require 'application/controllers/MailSender.php';
+
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Contact extends CI_Controller {
@@ -47,15 +49,17 @@ class Contact extends CI_Controller {
 					Comment<br>
 					'.nl2br($_POST['visitor_comment']).'
 				';
-            	$this->load->library('email');
+            	/*$this->load->library('email');
 
 				$this->email->from($_POST['visitor_email'], $_POST['visitor_name']);
 				$this->email->to($header['setting']['receive_email']);
 
 				$this->email->subject($subject_text['value']);
-				$this->email->message($msg);
+				$this->email->message($msg);*/
 
-				$this->email->send();
+                //todo: admin email
+                //$msg = $this->load->view('template_email/admin-hc-first-experience', $data, true);
+                MailSender::sendEmailSMTP('BrandzLab', $_POST['visitor_email'], 'Contact Us', '', $msg);
 
 				$data['success'] = $success_text['value'];
             }

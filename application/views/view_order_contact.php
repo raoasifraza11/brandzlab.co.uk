@@ -76,17 +76,7 @@
 								echo form_input($data);
 							?>
 						</div>
-						<div class="form-group">
-							<label for=""><?php echo DESING_FILE; ?></label>
-							<?php
-								$data = array(
-									'type'         => 'file',
-									'name'         => 'visitor_design',
-									'class'        => 'form-control',
-								);
-								echo form_input($data);
-							?>
-						</div>
+
 						<div class="form-group">
 							<label for=""><?php echo MESSAGE; ?></label>
 							<?php

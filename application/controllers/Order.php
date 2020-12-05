@@ -1,4 +1,5 @@
 <?php
+require 'application/controllers/MailSender.php';
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Order extends CI_Controller {
@@ -15,6 +16,9 @@ class Order extends CI_Controller {
 
     public function view($id=null)
     {
+        if ($this->input->post()){
+            $id = $this->input->post('id');
+        }
         $header['setting'] = $this->Model_common->get_setting_data();
         $header['page'] = $this->Model_common->get_page_data();
         $header['comment'] = $this->Model_common->get_comment_code();
@@ -29,9 +33,10 @@ class Order extends CI_Controller {
         // Product details
         $header['portfolio_order_by_name'] = $this->Model_portfolio->get_portfolio_data_order_by_name();
 
-        $data['portfolio'] = $this->Model_portfolio->get_portfolio_detail($id);
+        $data['portfolio'] = $this->Model_portfolio->get_portfolio_name_by_id($id);
         $data['portfolio_photo'] = $this->Model_portfolio->get_portfolio_photo($id);
         $data['portfolio_photo_total'] = $this->Model_portfolio->get_portfolio_photo_number($id);
+
         $data['id'] = $id;
 
         $data['error'] = '';
@@ -44,7 +49,6 @@ class Order extends CI_Controller {
             $this->form_validation->set_rules('visitor_phone', 'Phone', 'trim|required');
             $this->form_validation->set_rules('visitor_message', 'Message', 'trim|required');
 
-            $id = $this->input->post('id');
             $data['id'] = $id;
 
 
@@ -52,18 +56,22 @@ class Order extends CI_Controller {
             if($this->form_validation->run() == FALSE) {
                 $data['error'] = validation_errors();
             } else {
+
                 $msg = '
-            		<h3>Visitor Information</h3>
+            		<h3>Order Information</h3>
 					Name<br>
 					'.$_POST['visitor_name'].'<br><br>
 					Email<br>
 					'.$_POST['visitor_email'].'<br><br>
+					Product Name<br>
+					'.$data['portfolio']['name'].'<br><br>
 					Phone<br>
 					'.$_POST['visitor_phone'].'<br><br>
 					Comment<br>
 					'.nl2br($_POST['visitor_message']).'
 				';
-                $this->load->library('email');
+
+                /*$this->load->library('email');
 
                 $this->email->from($_POST['visitor_email'], $_POST['visitor_name']);
                 $this->email->to($header['setting']['receive_email']);
@@ -71,7 +79,9 @@ class Order extends CI_Controller {
                 $this->email->subject($subject_text['value']);
                 $this->email->message($msg);
 
-                $this->email->send();
+                $this->email->send();*/
+                MailSender::sendEmailSMTP('BrandzLab', $_POST['visitor_email'], 'New Order Query', '', $msg);
+
 
                 $data['success'] = $success_text['value'];
             }
