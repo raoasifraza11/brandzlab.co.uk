@@ -9,12 +9,6 @@
 
 <div class="container pt_40 pb_40">
 	<div class="row">
-		
-		<?php if($page['about_photo']!=""): ?>
-		<div class="col-md-12">
-			<img src="<?php echo base_url(); ?>public/uploads/<?php echo $page['about_photo']; ?>" alt=""><br>
-		</div>
-		<?php endif; ?>
 
 		<div class="col-md-12">
 			<h3><?php echo $page['about_heading']; ?></h3>
