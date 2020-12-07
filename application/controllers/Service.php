@@ -8,6 +8,8 @@ class Service extends CI_Controller {
         parent::__construct();
         $this->load->model('Model_common');
         $this->load->model('Model_service');
+        $this->load->model('Model_home');
+
     }
 
 	public function index()
@@ -19,8 +21,10 @@ class Service extends CI_Controller {
 		$header['language'] = $this->Model_common->get_language_data();
 		$header['latest_news'] = $this->Model_common->get_latest_news();
 		$header['popular_news'] = $this->Model_common->get_popular_news();
+        $header['portfolio_category'] = $this->Model_home->get_portfolio_category();
 
-		$header['service'] = $this->Model_service->get_service_data();
+
+        $header['service'] = $this->Model_service->get_service_data();
 
 		$this->load->view('view_header',$header);
 		$this->load->view('view_service');

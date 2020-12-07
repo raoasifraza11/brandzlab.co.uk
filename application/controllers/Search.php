@@ -8,6 +8,8 @@ class Search extends CI_Controller {
         parent::__construct();
         $this->load->model('Model_common');
         $this->load->model('Model_search');
+        $this->load->model('Model_home');
+
     }
 
 	public function index()
@@ -19,8 +21,10 @@ class Search extends CI_Controller {
 		$header['language'] = $this->Model_common->get_language_data();
 		$header['latest_news'] = $this->Model_common->get_latest_news();
 		$header['popular_news'] = $this->Model_common->get_popular_news();
+        $header['portfolio_category'] = $this->Model_home->get_portfolio_category();
 
-		if(isset($_POST['search_string'])) {
+
+        if(isset($_POST['search_string'])) {
 
 			$data['search_string'] = $_POST['search_string'];
 			$data['result'] = $this->Model_search->search($_POST['search_string']);

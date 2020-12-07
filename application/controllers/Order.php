@@ -10,6 +10,8 @@ class Order extends CI_Controller {
         $this->load->model('Model_common');
         $this->load->model('Model_contact');
         $this->load->model('Model_portfolio');
+        $this->load->model('Model_home');
+
     }
 
 
@@ -26,6 +28,8 @@ class Order extends CI_Controller {
         $header['language'] = $this->Model_common->get_language_data();
         $header['latest_news'] = $this->Model_common->get_latest_news();
         $header['popular_news'] = $this->Model_common->get_popular_news();
+        $header['portfolio_category'] = $this->Model_home->get_portfolio_category();
+
 
         $subject_text = $this->Model_contact->get_subject();
         $success_text = $this->Model_contact->get_success_text();

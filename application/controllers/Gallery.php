@@ -8,6 +8,8 @@ class Gallery extends CI_Controller {
         parent::__construct();
         $this->load->model('Model_common');
         $this->load->model('Model_gallery');
+        $this->load->model('Model_home');
+
     }
 
 	public function index()
@@ -19,8 +21,10 @@ class Gallery extends CI_Controller {
 		$header['language'] = $this->Model_common->get_language_data();
 		$header['latest_news'] = $this->Model_common->get_latest_news();
 		$header['popular_news'] = $this->Model_common->get_popular_news();
-		
-		$header['gallery'] = $this->Model_gallery->get_gallery_data();
+        $header['portfolio_category'] = $this->Model_home->get_portfolio_category();
+
+
+        $header['gallery'] = $this->Model_gallery->get_gallery_data();
 
 		$this->load->view('view_header',$header);
 		$this->load->view('view_gallery');
