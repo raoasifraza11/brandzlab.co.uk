@@ -348,7 +348,7 @@
             <div class="col-md-9 col-sm-12 main-menu" style="display: block;">
                 <div class="main-menu-item">
                     <ul class="nav-menu">
-                        <span style="background: #F21D7F; padding: 15px;">
+                        <span style="background: #f8be2e; padding: 15px;">
                             <i class="fa fa-bars"></i>
                             <li class="menu-item-has-children"><a href="javascript:void();" onMouseOver="this.style.color='#000'"
                                                                   onMouseOut="this.style.color='#000'"><?php echo "CATEGORY"; ?></a>
