@@ -43,7 +43,7 @@
 									<h3><?php echo $row['name']; ?></h3>
 									<?php echo $row['short_content']; ?>
 									<div class="services-link">
-										<a href="<?php echo base_url(); ?>portfolio/view/<?php echo $row['id']; ?>"><?php echo READ_MORE; ?> <i class="fa fa-angle-double-right"></i></a>
+                                        <a href="<?php echo base_url(); ?>order/view/<?php echo $row['id']; ?>"><?php echo ORDER_NOW; ?> <i class="fa fa-angle-double-right"></i></a>
 									</div>
 								</div>
 							</div>
