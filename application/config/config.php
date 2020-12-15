@@ -25,7 +25,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 //date_default_timezone_set('Asia/Kolkata');
 //$config['base_url'] = 'http://construction.demo.ngsp.pk/';
-$config['base_url'] = 'http://'.$_SERVER['SERVER_NAME'];
+$config['base_url'] = 'https://'.$_SERVER['SERVER_NAME'];
 
 
 /*
