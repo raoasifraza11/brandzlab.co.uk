@@ -295,7 +295,7 @@
 
 <body>
 
-<?php echo $comment['code_body']; ?>
+<?php //echo $comment['code_body']; ?>
 
 <div id="preloader">
     <div id="status" style="background-image: url('<?php echo base_url(); ?>public/img/preloader.gif')"></div>
@@ -348,36 +348,21 @@
             <div class="col-md-9 col-sm-12 main-menu" style="display: block;">
                 <div class="main-menu-item">
                     <ul class="nav-menu">
-                        <span style="background: #f8be2e; padding: 15px;">
-                            <i class="fa fa-bars"></i>
-                            <li class="menu-item-has-children"><a href="javascript:void();" onMouseOver="this.style.color='#000'"
-                                                                  onMouseOut="this.style.color='#000'"><?php echo "CATEGORY"; ?></a>
-                                <ul class="sub-menu">
-                                    <?php
-                                    foreach ($portfolio_category as $row) {
-                                        ?>
-                                        <li><a href="<?php echo base_url(); ?>portfolio"><?php echo $row['category_name']; ?></a></li>
-                                        <?php
-                                    }
-                                    ?>
-                                </ul>
-                            </li>
-                        </span>
+                       
                         <li><a href="<?php echo base_url(); ?>"><?php echo HOME; ?></a></li>
+                        <li><a href="<?php echo base_url(); ?>about"><?php echo ABOUT; ?></a></li>
+                        <li><a href="<?php echo base_url(); ?>service"><?php echo SERVICE; ?></a></li>
+                        <!--<li><a href="<?php echo base_url(); ?>portfolio"><?php echo PROJECTS; ?></a></li>-->
+                        <li><a href="<?php echo base_url(); ?>news/page"><?php echo NEWS; ?></a></li>
+                        <li><a href="<?php echo base_url(); ?>contact"><?php echo CONTACT; ?></a></li>
+                        <li><a href="<?php /*echo base_url(); */?>career">Careers</a></li>
                         <li class="menu-item-has-children"><a href="javascript:void();"><?php echo PAGE; ?></a>
                             <ul class="sub-menu">
-                                <li><a href="<?php echo base_url(); ?>about"><?php echo ABOUT; ?></a></li>
                                 <li><a href="<?php echo base_url(); ?>gallery"><?php echo GALLERY; ?></a></li>
                                 <li><a href="<?php echo base_url(); ?>testimonial"><?php echo TESTIMONIAL; ?></a></li>
                                 <li><a href="<?php echo base_url(); ?>faq"><?php echo FAQ; ?></a></li>
                             </ul>
                         </li>
-                        <li><a href="<?php echo base_url(); ?>service"><?php echo SERVICE; ?></a></li>
-                        <li><a href="<?php echo base_url(); ?>portfolio"><?php echo PROJECTS; ?></a></li>
-                        <li><a href="<?php echo base_url(); ?>news/page"><?php echo NEWS; ?></a></li>
-                        <li><a href="<?php echo base_url(); ?>contact"><?php echo CONTACT; ?></a></li>
-                        <!--<li><a href="<?php /*echo base_url(); */?>career">Careers</a></li>-->
-
 
                     </ul>
                 </div>

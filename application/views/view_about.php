@@ -12,8 +12,10 @@
 
 		<div class="col-md-12">
 			<h3><?php echo $page['about_heading']; ?></h3>
-			<p>
-				<?php echo $page['about_content']; ?>
+			<p >
+				<div id="about_content">
+				    <?php echo $page['about_content']; ?>
+				</div>
 			</p>
 		</div>
 	</div>

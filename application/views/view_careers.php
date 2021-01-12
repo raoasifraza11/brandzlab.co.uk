@@ -1,8 +1,5 @@
 
 
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 
 <div class="banner-slider" style="background-image: url(<?php echo base_url(); ?>public/uploads/<?php echo $setting['banner_careers']; ?>)">
@@ -84,23 +81,21 @@ section{
 					<h1 class="text-green mb-4 text-center">New Jobs Opening </h1>
 				</div>
 				<div class="col-10 mx-auto">
-					<div class="accordion" id="accordionExample">
-					
-					<?php foreach ($service as $row) { ?>
-					
-						<div class="card">
-							<div class="card-header" id="headingOne">
-								<h5 class="mb-0">
-							<button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne<?php echo $row['id']; ?>" aria-expanded="true" aria-controls="collapseOne">
-							  <i class=""></i><i class="fa fa-angle-double-right mr-3"></i> <?php echo $row['title']; ?>
-							</button>
-						  </h5>
-							</div>
 
-							<div id="collapseOne<?php echo $row['id']; ?>" class="collapse show fade" aria-labelledby="headingOne" data-parent="#accordionExample">
-								<div class="card-body">
-								
-								<h1>Job Description</h1> <?php echo $row['responsibilities']; ?> <br>
+				<div class="faq-gallery">
+                    <div class="panel-group" id="accordion">
+                        
+                        	<?php foreach ($service as $row) { ?>
+					
+					<div class="panel panel-default">
+                			<div class="panel-heading">
+                				<h4 class="panel-title">
+                					<a data-toggle="collapse" data-parent="#accordion" href="#<?php echo $row['id']; ?>"><?php echo $row['title']; ?></a>
+                				</h4>
+                			</div>
+                			<div id="<?php echo $row['id']; ?>" class="panel-collapse collapse ">
+                				<div class="panel-body">
+                				<h1>Job Description</h1> <?php echo $row['responsibilities']; ?> <br>
 								
 								<h2> Skills </h2> <h4><?php echo $row['skills']; ?> </h4><br>
 							
@@ -115,27 +110,19 @@ section{
 								
 								
 								<a href=" <?php echo base_url();?>career/view/<?php echo $row['id'];?>"><button class=" btn-floating btn-success btn-lg" style="background-color:#FFBD33;"><i></i>Apply Now</button> </a>
-									
-								</div>
-							</div>
-							
-						</div>
-						
-						
-						
-						
-						
-						<br>
+	
+                													</div>
+                			</div>
+                		</div>
 						
 						 <?php }?> 
-						
-					</div>
-				</div>	
+                        
+                	</div>
+                </div>
 			</div>
 		</section>
 	</div>
 </div>
-
 
 
 

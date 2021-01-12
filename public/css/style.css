@@ -226,7 +226,7 @@ img {
 /*Header-Area*/
 
 .header-area {
-	background: #F21D7F;
+	background: #272360;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	clear: both;
@@ -694,6 +694,11 @@ ul.nav-menu li ul li ul li:nth-child(8) {
 	background: #f8be2e;
 }
 
+#about_content div p {
+    font-size: 15px !important;
+    line-height: 26px !important;
+}
+
 /*
 ================================
 Slider
@@ -768,10 +773,10 @@ Slider
 	font-weight: 700;
 	text-transform: uppercase;
 	display: inline-block;
-	background: #F21D7F;
+	background: #272360;
 	color: #fff;
 	text-decoration: none;
-	border: 1px solid #F21D7F;
+	border: 1px solid #272360;
 	border-radius: 3px;
 	-webkit-border-radius: 3px;
 	padding: 14px 45px;
@@ -867,7 +872,7 @@ Slider
 
 .bg-choose {
 	position: absolute;
-	background-color: #F21D7F;
+	background-color: #272360;
 	width: 100%;
 	height: 100%;
 	top: 0;
@@ -933,7 +938,7 @@ Slider
 }
 
 .services-text {
-	background: #F21D7F;
+	background: #272360;
 	color: #fff;
 	border-top: 5px solid #F8BE2E;
 	padding: 15px;
@@ -951,6 +956,7 @@ Slider
 	text-transform: uppercase;
 	transition: all 0.3s;
 	-webkit-transition: all 0.3s;
+	font-size:21px;
 }
 
 .services-text h3 a:hover {
@@ -1134,7 +1140,7 @@ Slider
 }
 
 .recent-text {
-	background: #F21D7F;
+	background: #272360;
 	color: #fff;
 	border-top: 5px solid #F8BE2E;
 	padding: 15px;
@@ -1165,7 +1171,7 @@ Slider
 
 .team-text {
 	text-align: center;
-	background: #F21D7F;
+	background: #272360;
 	color: #fff;
 	border-top: 5px solid #f8be2e;
 	padding: 15px;
@@ -1267,8 +1273,8 @@ Slider
 	height: 36px;
 	line-height: 31px;
 	font-size: 18px;
-	color: #F21D7F;
-	border: 2px solid #F21D7F;
+	color: #272360;
+	border: 2px solid #272360;
 	border-radius: 1px;
 	-webkit-border-radius: 1px;
 	transition: all 0.3s;
@@ -1291,7 +1297,7 @@ Slider
 .team-carousel.owl-carousel .owl-nav .owl-prev:hover,
 .team-carousel.owl-carousel .owl-nav .owl-next:hover {
 	color: #f8be2e;
-	border: 2px solid #F21D7F;
+	border: 2px solid #272360;
 }
 
 /*Testimonial-Area*/
@@ -1392,7 +1398,7 @@ Slider
 /*FAQ-Area*/
 
 .booking-gallery {
-	background: #F21D7F;
+	background: #272360;
 	padding: 40px 20px;
 	margin-top: 30px;
 }
@@ -1519,7 +1525,7 @@ div.wpcf7-response-output {
 }
 
 .faq-gallery .panel-default > .panel-heading {
-	background: #F21D7F;
+	background: #272360;
 	color: #fff;
 	padding: 0;
 	border-radius: 0;
@@ -1656,7 +1662,7 @@ div.wpcf7-response-output {
 }
 
 .caption-text {
-	background: #F21D7F;
+	background: #272360;
 	color: #fff;
 	border-top: 5px solid #f8be2e;
 	padding: 15px;
@@ -1711,7 +1717,7 @@ div.wpcf7-response-output {
 }
 
 .blog-text {
-	background: #F21D7F;
+	background: #272360;
 	color: #fff;
 	border-top: 5px solid #f8be2e;
 	padding: 15px;
@@ -1757,8 +1763,8 @@ div.wpcf7-response-output {
 	height: 36px;
 	line-height: 31px;
 	font-size: 18px;
-	color: #F21D7F;
-	border: 2px solid #F21D7F;
+	color: #272360;
+	border: 2px solid #272360;
 	border-radius: 1px;
 	-webkit-border-radius: 1px;
 	transition: all 0.3s;
@@ -1780,7 +1786,7 @@ div.wpcf7-response-output {
 .blog-carousel.owl-carousel .owl-nav .owl-prev:hover,
 .blog-carousel.owl-carousel .owl-nav .owl-next:hover {
 	color: #f8be2e;
-	border: 2px solid #F21D7F;
+	border: 2px solid #272360;
 }
 
 /*Pagination*/
@@ -1807,7 +1813,7 @@ ul.page-numbers li a{
 ul.page-numbers li a.page-numbers {
     display: inline-block;
 	list-style-type: none;
-	background: #F21D7F;
+	background: #272360;
 	color: #fff;
 	padding: 8px 16px;
 }
@@ -1827,7 +1833,7 @@ span.page-numbers.current {
 	background-size: cover;
 	background-position: top center;
 	background-repeat: no-repeat;
-	height: 80px;
+	height: 180px;
 	margin-top: 30px;
 }
 
@@ -1853,8 +1859,8 @@ span.page-numbers.current {
 	height: 36px;
 	line-height: 31px;
 	font-size: 18px;
-	color: #F21D7F;
-	border: 2px solid #F21D7F;
+	color: #272360;
+	border: 2px solid #272360;
 	border-radius: 1px;
 	-webkit-border-radius: 1px;
 	transition: all 0.3s;
@@ -1880,7 +1886,7 @@ span.page-numbers.current {
 .brand-carousel.owl-carousel .owl-nav .owl-prev:hover,
 .brand-carousel.owl-carousel .owl-nav .owl-next:hover {
 	color: #f8be2e;
-	border: 2px solid #F21D7F;
+	border: 2px solid #272360;
 }
 
 /*Footer-Contact*/
@@ -1890,7 +1896,7 @@ span.page-numbers.current {
 	width: 100%;
 	height: auto;
 	padding: 40px 0 20px 0;
-	background: #F21D7F;
+	background: #272360;
 }
 
 .footer-col h3	{
@@ -2050,7 +2056,7 @@ span.page-numbers.current {
 /*Footer-area*/
 
 .footer-area {
-	background: #F21D7F;
+	background: #272360;
 	color: #fff;
 }
 
@@ -2281,12 +2287,12 @@ span.page-numbers.current {
 }
 
 .testimonial-area.main-testimonial .testimonial-detail {
-	background: #F21D7F;
+	background: #272360;
 	color: #fff;
 }
 
 .main-testimonial .testimonial-carousel .owl-dots .owl-dot {
-	background: #F21D7F;
+	background: #272360;
 }
 
 .main-testimonial .testimonial-carousel .owl-dots .owl-dot.active {
@@ -2331,6 +2337,9 @@ span.page-numbers.current {
 .about-mission {
 	text-align: center;
 	margin-top: 30px;
+	font-size: 15px;
+    line-height: 24px;
+
 }
 
 .mission-icon {
@@ -2339,7 +2348,7 @@ span.page-numbers.current {
 	height: 90px;
 	line-height: 90px;
 	text-align: center;
-	background: #F21D7F;
+	background: #272360;
 	color: #f8be2e;
 	font-size: 38px;
 	border-radius: 50%;
@@ -2472,7 +2481,7 @@ span.page-numbers.current {
 	line-height: 26px;
 	font-size: 18px;
 	background: #f8be2ecc;
-	color: #F21D7F;
+	color: #272360;
 	border: 1px solid #f8be2e;
 	margin-top: -15px;
 	border-radius: 1px;
@@ -2792,10 +2801,10 @@ span.page-numbers.current {
     font-weight: 700;
     text-transform: uppercase;
     display: inline-block;
-    background: #F21D7F;
+    background: #272360;
     color: #fff;
     text-decoration: none;
-    border: 1px solid #F21D7F;
+    border: 1px solid #272360;
     border-radius: 3px;
     -webkit-border-radius: 3px;
     padding: 10px 25px;
@@ -3503,8 +3512,8 @@ p.logged-in-as a:hover {
 	transition: all 0.3s;
 }
 .searchform [type='submit']:hover{
-	background: #F21D7F;
-	border-color: #F21D7F;
+	background: #272360;
+	border-color: #272360;
 	color: #fff;
 }
 
@@ -3544,7 +3553,7 @@ p.logged-in-as a:hover {
 	color: #f8be2e;
 }
 .blog-link {
-	background: #F21D7F;
+	background: #272360;
 	text-align: center;
 	padding: 30px;
 	width: 100%;
@@ -3729,7 +3738,7 @@ blockquote {
 	text-decoration: none;
 }
 .page-links a span {
-    background: #F21D7F;
+    background: #272360;
 	color: #fff;
 	margin-right: 0 2px;
     padding: 3px 6px;

@@ -78,7 +78,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
 <?php if($setting['service_status'] == 'Show'): ?>
-<div class="services-area ptb-60">
+<!--<div class="services-area ptb-60 ">
 	<div class="container">
 		<div class="row">
 			<div class="headline">
@@ -88,11 +88,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				</div>
 			</div>
 		</div>
-		<div class="row">			
+		<div class="row">
+		    	<div class="team-carousel owl-carousel ">			
 			<?php
 			foreach ($service as $row) {
 				?>
-				<div class="col-md-4 col-sm-6 col-xs-12 clear-three">
+				<div class="clear-three">
 					<div class="services-item">
 						<div class="services-photo" style="background-image: url(<?php echo base_url(); ?>public/uploads/<?php echo $row['photo']; ?>)"></div>
 						<div class="services-text">
@@ -107,11 +108,48 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<?php
 			}
 			?>
+			</div>
+		</div>
+	</div>
+</div>-->
+<?php endif; ?>
+<?php if($setting['service_status'] == 'Show'): ?>
+<div class="team-area ptb-60">
+	<div class="container">
+		<div class="row">
+			<div class="headline">
+				<div class="headline-shadow">
+					<h2><?php echo $setting['service_title']; ?></h2>
+					<p><?php echo $setting['service_subtitle']; ?></p>
+				</div>
+			</div>
+			<div class="col-md-12">
+				<div class="team-carousel owl-carousel ">
+
+						<?php
+			foreach ($service as $row) {
+				?>
+				<div class="clear-three">
+					<div class="services-item">
+						<div class="services-photo" style="background-image: url(<?php echo base_url(); ?>public/uploads/<?php echo $row['photo']; ?>)"></div>
+						<div class="services-text">
+							<h3><a href="<?php echo base_url(); ?>service/view/<?php echo $row['id']; ?>"><?php echo $row['heading']; ?></a></h3>
+							<?php echo $row['short_content']; ?>
+							<div class="services-link">
+								<a href="<?php echo base_url(); ?>service/view/<?php echo $row['id']; ?>"><?php echo READ_MORE; ?> <i class="fa fa-angle-double-right"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<?php
+			}
+			?>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
 <?php endif; ?>
-
 
 <?php if($setting['portfolio_status'] == 'Show'): ?>
 <div class="recent-works bg-area ptb-60">
@@ -185,7 +223,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				</div>
 			</div>
 			<div class="col-md-12">
-				<div class="team-carousel owl-carousel">
+				<div class="team-carousel owl-carousel ">
 
 					<?php
 					foreach ($team as $row) {
